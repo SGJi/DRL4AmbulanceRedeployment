@@ -6,17 +6,17 @@ This is a TensorFlow implementation of the deep reinforcement learning-enabled d
     numpy and scipy.
 
 # File description
-(1) policy_n4.py
+## policy_n4.py
     implements the training and evaluation of the deep reinforcement learning method
     training or evaluation: python policy_n4.py
 
-(2) ambulance_env.py
+## ambulance_env.py
     implements a simplified simulation
 
-(3) brain_policy_4.py
+## brain_policy_4.py
     defines the network structure of the deep (neural) score network
 
-(4) Utility.py
+## Utility.py
     contains some functions for data processing
 
 # References 
