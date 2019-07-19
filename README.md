@@ -1,5 +1,5 @@
 # DRL4AmbulanceRedeployment
-    This is a TensorFlow implementation of the deep reinforcement learning-enabled dynamic ambulance redeployment method proposed by paper [1]. 
+This is a TensorFlow implementation of the deep reinforcement learning-enabled dynamic ambulance redeployment method proposed by paper "A Deep Reinforcement Learning-Enabled Dynamic Redeployment System for Mobile Ambulances" [1]. 
 
 # Dependencies:
     TensorFlow >= 1.5.0
@@ -20,4 +20,4 @@
     contains some functions for data processing
 
 # References 
-    [1] Shenggong Ji, Yu Zheng, Zhaoyuan Wang, Tianrui Li. A Deep Reinforcement Learning-Enabled Dynamic Redeployment System for Mobile Ambulances. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/UbiComp 2019) 3, 1, Article 15, 2019.
+[1] Shenggong Ji, Yu Zheng, Zhaoyuan Wang, Tianrui Li. A Deep Reinforcement Learning-Enabled Dynamic Redeployment System for Mobile Ambulances. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/UbiComp 2019) 3, 1, Article 15, 2019.
