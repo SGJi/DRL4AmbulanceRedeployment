@@ -1,0 +1,26 @@
+This file explains the format of each data used. 
+
+(1) each-station-lambda-31days.csv
+    a. this file contains totally n rows, where n is the number of ambulance stations in the simulation (e.g. n = 34 in paper [1]). 
+    b. each row has T values separated by ',', where T is the number of hours in the simulation (e.g. T = 31 * 24 if we simulate 31 days as in paper [1]). 
+
+(2) ems_requests.ext
+    a. this file records all EMS requests used in simulation.
+    b. each row is an EMS request, with its time and location (road vertex id).
+
+(3) hospitals.txt
+    a. this file contains all hospitals used in simulation.
+    b. each row is the location (road vertex id) of a hospital.
+
+(4) stations.txt
+    a. this file contains all ambulance stations used in simulation.
+    b. each row is the location (road vertex id) of an ambulance station.
+
+(5) travel_time_between_road_vertex.txt
+    a. this file contains the travel time of any two vertices.
+    b. the data format of each row is: road_vertex_id_1, road_vertex_id_2, travel_time (in second).
+
+Note that we only provide some data samples for each file, since we are not allowed to release the data. 
+
+References: 
+[1] Shenggong Ji, Yu Zheng, Zhaoyuan Wang, Tianrui Li. A Deep Reinforcement Learning-Enabled Dynamic Redeployment System for Mobile Ambulances. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/UbiComp 2019) 3, 1, Article 15, 2019.
